@@ -1,1 +1,43 @@
 /*This is help with css grid https://mozilladevelopers.github.io/playground/css-grid/02-first-grid/*/
+/*Got help with the thickness and elevation of items https://material.io/design/environment/elevation.html#elevation-in-material-design*/
+*{
+    text-align: center;
+    align-content: center;
+}
+.gridstyle {
+    display: grid;
+    grid-gap: 1rem;
+    grid-auto-columns: 0.2fr 1fr 0.2fr ;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    
+}
+ .header{
+    background-color: rgb(38, 38, 255);
+    height: 200px;
+    grid-column: 1 / 4;
+    
+}
+ul{
+    margin: 65px auto 65px auto;
+    padding: 0;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.lpc-1{
+    grid-column: 2 / 3;
+    margin: auto;
+}
+.lpc-2{
+    grid-column: 2 / 3;
+    margin: auto;
+}
+.lpc-3{
+    grid-column: 2 / 3;
+    margin: auto;
+}
+.footer{
+    grid-column: 2 / 3;
+    margin: auto;
+}
