@@ -13,17 +13,21 @@
 }
  .header{
     background-color: rgb(38, 38, 255);
-    height: 200px;
+    height: 220px;
     grid-column: 1 / 4;
     
 }
 ul{
-    margin: 65px auto 65px auto;
+    margin: 34px auto 34px auto;
     padding: 0;
 }
 li{
     text-decoration: none;
     list-style-type: none;
+    padding: 10px;
+}
+.navhov:hover{
+    background-color: rgba(255, 255, 255, 0.486);
 }
 .lpc-1{
     grid-column: 2 / 3;
