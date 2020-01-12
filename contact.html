@@ -12,8 +12,8 @@
     <title>Document</title>
 </head>
 <body class="center"><!--Learnt classes from Liz Coulter-smith (https://docs.google.com/presentation/d/1Yf4kfHwaz07Vnioszt6HVfdYPBxkmlriHVidD7TPNuA/edit#slide=id.g62edc68dcc_1_295) from (https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) -->
-    <div class="gridstyle"> <!--This is help with css grid (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) and (https://mozilladevelopers.github.io/playground/css-grid/02-first-grid/) and (https://codepen.io/lizcoultersmith/pen/ZEEPGbr?editors=1100) and (https://gridbyexample.com/learn/)-->
-        <header class="header"> <!--Header (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)-->
+    <div class="gridstyle"><!--This is help with css grid (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) and (https://mozilladevelopers.github.io/playground/css-grid/02-first-grid/) and (https://codepen.io/lizcoultersmith/pen/ZEEPGbr?editors=1100) and (https://gridbyexample.com/learn/)-->
+        <header class="header"><!--Header (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)-->
             <ul class="navgrid">
                 <li class="navhov"><a href="http://127.0.0.1:5500/index.html">Home</a></li><!--List help (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)-->
                 <li class="navhov"><a href="http://127.0.0.1:5500/portfolio.html#">Portfolio</a></li>
@@ -21,14 +21,26 @@
                 <li class="navhov"><a href="http://127.0.0.1:5500/contact.html">Contacts</a></li>
             </ul>
         </header>
-        <h1 class="lpc-1">My Name is Eden Brawn</h1>
-        <img class="lpc-2" src="assets/20200109_111813(2).jpg" alt="A picture of me">
-        <h2 class="lpc-3">Currently I am Studiying at Northampton University</h2>
+        <form action="mailto: edenbrawn@gmail.com" class="formgrid"><!--Help with form and input ((https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms) and )-->
+            <div class="formcards">
+                <h2>Email Address:</h2>
+                <p>edenbrawn@gmail.com</p>
+            </div>
+            <div class="formcards">
+                <h2>Phone Number:</h2>
+                <p>07724 399153</p>
+            </div>
+            <div class="formcards">
+                <h2>Website:</h2>
+                <p>ebrawn.com</p>
+            </div>
+            <input type="submit" value="Send an Email" class="input"> <!--Help with input and form (https://stackoverflow.com/questions/7449767/how-do-i-send-an-html-form-in-an-email-not-just-mailto) and (https://stackoverflow.com/questions/24026898/how-to-send-an-email-using-only-html5-and-css)-->
+        </form>
         <footer class="footer">
-            <a href="https://github.com/Eden-Brawn?tab=repositories" class="footimg"><i class="fab fa-github-square"></i></a><!--The source for git logo (https://fontawesome.com/icons/github-square?style=brands)-->
+            <a href="https://github.com/Eden-Brawn?tab=repositories" class="footimg"><i class="fab fa-github-square"></i></a> <!--The source for git logo (https://fontawesome.com/icons/github-square?style=brands)-->
             <a href="https://en-gb.facebook.com/" class="footimg"><i class="fab fa-facebook-square"></i></a><!--The source for fb logo (https://fontawesome.com/icons/facebook-square?style=brands)-->
         </footer>
         
     </div>
 </body>
-</html> 
+</html>
