@@ -1,13 +1,16 @@
 /*General layout based on (https://codepen.io/lizcoultersmith/pen/KKKEpNy)*/
 /*Got help with the thickness and elevation of items https://material.io/design/environment/elevation.html#elevation-in-material-design*/
 /*Help with material design (https://material.io/design/color/color-usage.html#brand) and (https://www.mockplus.com/blog/post/material-design-website-examples) and (https://medium.muz.li/youtube-material-design-redesign-e684cc2d221b)*/
+/*Also based on my Assignment 0 (http://127.0.0.1:5500/landing.html) and (http://127.0.0.1:5500/portfolio.html)*/
+
 *{
     text-align: center; /*Centering help (https://www.w3.org/Style/Examples/007/center.en.html)*/
     align-content: center;
 }
 body{
     z-index: 1;/*Z-index help (https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)*/
-    
+    /*Got help with the thickness and elevation of items https://material.io/design/environment/elevation.html#elevation-in-material-design*/
+
 }
 h1 h2{
     color: #212121; /*Colours decided from(https://www.materialpalette.com/teal/green)*/
